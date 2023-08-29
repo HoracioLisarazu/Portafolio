@@ -6,25 +6,27 @@
     font-size: 100%;
 }
 html{
-    background-color: darkred;
+    background: linear-gradient(black, red);
 }
 header{
-    margin: -20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: black;
-    position: fixed;
+    position: static;
     width: 100%;
     z-index: 100;
+    font-size: 40px;
 }
-
 h1.nom1{
     font-size: 20px;
     color: white;
     text-align: left;
     padding: 5px;
+    font-size: 40px;
 }
 h2.carr{
     font-size: 20px;
@@ -32,98 +34,100 @@ h2.carr{
     text-align: left;
     padding: 5px;
     display: flex;
+    font-size: 40px;
 }
-.navbar{
+.menu{
+    font-size: 40px;
     display: flex;
-    margin-right: 10px; 
+    margin-right: 120px; 
+    margin-right: 120px;
 }
-.navbar a{
+.menu a{
     display: block;
-    padding: 20px;
+    padding: 30px 30px 30px 30px;
     text-decoration: none;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
 }
 .titulo1{
-    font-size:35px;
-    margin: 20px;
+    font-size:50px;
     color: white;
-    padding: 10px;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    margin: 120px 20px 20px 500px;
 }
 .contenido1{
-    width: 85%;
+    width: 30%;
+    height: 30%;
     font-size:35px;
     color: white;
     padding: 2%;
     margin: 2%;
-    text-align: center;
-
+    text-align: left;
 }
 .titulo2{
     font-size:50px;
     color: white;
-    padding: 10px;
-    text-align: center;
- 
+    padding: 20px 20px 20px 20px;
+    margin: 20px 250px 20px 20px;
+    text-align: right;
 }
 .contenido2{
-    width: 100%;
+    width: 30%;
+    height: 30%;
     font-size:35px;
     color: white;
-    padding: 10px;
-    margin: 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
     text-align: center;
-
-}.titulo3{
+    float: right;
+}
+.titulo3{
     font-size:50px;
     color: white;
-    padding: 10px;
-    text-align: center;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    margin: 120px 20px 20px 450px;
 }
 .contenido3{
-    width: 100%;
+    width: 30%;
+    height: 30%;
     font-size:35px;
     color: white;
-    padding: 10px;
-    margin: 20px;
-    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    text-align: left;;
 }
 .titulo4{
     font-size:50px;
     color: white;
     padding: 10px;
+    margin: 0px 0px 50px 0px;
     text-align: center;
 }
-.contenido4{
-    width: 1500px;
-    font-size:25px;
-    color: white;
-    padding: 10px;
-    margin: 20px;
-}
 .pie_pagina{
-
     background-color: white;
     width:300px;
     height: 350px;
     padding:15px;
     border: 5px solid black;
 }
+.contacto{
+    text-align: center;
+}
+.contacto a{
+    color: white;
+    font-size: 35px;
+    margin: 50px;
+    text-decoration: none;
+}
 .btn_git a{
-    text-align: center;
-}
-.Contacto a.Face{
-    text-align: right;
-}
-.Contacto a.Inst{
-    text-align: center;
-}
-.Contacto a.X{
-    text-align: left;
+    float: left;
+    margin: 30px 30px 30px 550px;
 }
 footer{
+    margin: 500px 0px 50px 0px;
     font-size: 30px;
     text-align: center;
     color: white;
