@@ -6,7 +6,7 @@
     font-size: 100%;
 }
 html{
-    background: linear-gradient(black, red);
+    background: linear-gradient(red, black);
 }
 header{
     margin: 0px 0px 0px 0px;
@@ -51,7 +51,7 @@ h2.carr{
     text-transform: uppercase;
 }
 .titulo1{
-    font-size:50px;
+    font-size:70px;
     color: white;
     text-align: left;
     padding: 20px 20px 20px 20px;
@@ -60,31 +60,31 @@ h2.carr{
 .contenido1{
     width: 30%;
     height: 30%;
-    font-size:35px;
+    font-size:50px;
     color: white;
     padding: 2%;
     margin: 2%;
     text-align: left;
 }
 .titulo2{
-    font-size:50px;
+    font-size:70px;
     color: white;
     padding: 20px 20px 20px 20px;
-    margin: 20px 250px 20px 20px;
+    margin: 400px 400px 20px 20px;
     text-align: right;
 }
 .contenido2{
     width: 30%;
     height: 30%;
-    font-size:35px;
+    font-size:50px;
     color: white;
     padding: 20px 20px 20px 20px;
-    margin: 20px 20px 20px 20px;
+    margin: 20px 120px 20px 20px;
     text-align: center;
     float: right;
 }
 .titulo3{
-    font-size:50px;
+    font-size:70px;
     color: white;
     text-align: left;
     padding: 20px 20px 20px 20px;
@@ -93,7 +93,7 @@ h2.carr{
 .contenido3{
     width: 30%;
     height: 30%;
-    font-size:35px;
+    font-size:50px;
     color: white;
     padding: 2%;
     margin: 2%;
@@ -103,18 +103,20 @@ h2.carr{
     font-size:50px;
     color: white;
     padding: 10px;
-    margin: 0px 0px 50px 0px;
+    margin: 500px 300px 100px 1800px;
     text-align: center;
 }
 .pie_pagina{
-    background-color: white;
+    text-align: right;
+    background-color: black;
     width:300px;
     height: 350px;
     padding:15px;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 .contacto{
     text-align: center;
+    margin: 0px 0px 500px 1500px;
 }
 .contacto a{
     color: white;
@@ -128,7 +130,81 @@ h2.carr{
 }
 footer{
     margin: 500px 0px 50px 0px;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     color: white;
+}
+.logo1{
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin: 180px 700px 0px 0px;
+}
+.logo2{
+    width: 300px;
+    height: 300px;
+    margin: 0px 200px 250px 550px;
+}
+.logo3{
+    width: 300px;
+    height: 300px;
+}
+.pie_pag{
+    width: 1000px;
+    height: 850px;
+    padding: 40px 40px 40px 40px;
+    margin: 80px 30px 30px 150px;
+    font-size: 40px;
+}
+.name{
+    width: 200px;
+    height: 500px;
+}
+h1{
+    margin: 0px 0px 30px 150px;
+    color: white;
+}
+input{
+    width: 600px;
+    height: 60px;
+    margin: 0px 0px 30px 0px;
+    padding: 8px;
+    font-size: 30px;
+}
+textarea{
+    width: 600px;
+    height: 200px;
+    margin: 0px 0px 30px 0px;
+    padding: 8px;
+    font-size: 30px;
+}
+li{
+    list-style: none;
+    color: white;
+}
+button{
+    font-size: 25px;
+    width: 150px;
+    height: 80px;
+    margin: 0px 0px 30px 200px;
+}
+button:hover{
+    background: linear-gradient(red, black);
+    color: white;
+}
+button:active {
+    background-color: black;
+    color: white;
+}
+.button1{
+    font-size: 30px;
+    height: 70px;
+    padding: 5px;
+    margin: 5px;
+}
+.button1 :hover{
+    background-color: crimson;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
 }
